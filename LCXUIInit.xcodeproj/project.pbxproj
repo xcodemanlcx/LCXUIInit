@@ -15,6 +15,17 @@
 		369FA782237AF91200155033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA781237AF91200155033 /* main.m */; };
 		369FA78C237AF91200155033 /* LCXUIInitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA78B237AF91200155033 /* LCXUIInitTests.m */; };
 		369FA797237AF91200155033 /* LCXUIInitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA796237AF91200155033 /* LCXUIInitUITests.m */; };
+		369FA7B4237AFB1600155033 /* LCXUIInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7A6237AFB1600155033 /* LCXUIInit.m */; };
+		369FA7B5237AFB1600155033 /* LCXUIInit+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7A7237AFB1600155033 /* LCXUIInit+TableView.m */; };
+		369FA7B6237AFB1600155033 /* LCXUIInit+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7A8237AFB1600155033 /* LCXUIInit+ImageView.m */; };
+		369FA7B7237AFB1600155033 /* LCXUIInit+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7B0237AFB1600155033 /* LCXUIInit+Button.m */; };
+		369FA7B8237AFB1600155033 /* LCXUIInit+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7B1237AFB1600155033 /* LCXUIInit+View.m */; };
+		369FA7B9237AFB1600155033 /* LCXUIInit+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7B2237AFB1600155033 /* LCXUIInit+Label.m */; };
+		369FA7BE237AFB3900155033 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7BA237AFB3900155033 /* TableViewController.m */; };
+		369FA7BF237AFB3900155033 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7BB237AFB3900155033 /* BaseViewController.m */; };
+		369FA7C4237AFBFF00155033 /* TableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7C3237AFBFF00155033 /* TableViewVC.m */; };
+		369FA7C7237AFC1F00155033 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 369FA7C6237AFC1F00155033 /* TableViewCell.m */; };
+		369FA7CD237B011B00155033 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 369FA7CC237B011B00155033 /* testImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,28 @@
 		369FA792237AF91200155033 /* LCXUIInitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCXUIInitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369FA796237AF91200155033 /* LCXUIInitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCXUIInitUITests.m; sourceTree = "<group>"; };
 		369FA798237AF91200155033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369FA7A6237AFB1600155033 /* LCXUIInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCXUIInit.m; sourceTree = "<group>"; };
+		369FA7A7237AFB1600155033 /* LCXUIInit+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+TableView.m"; sourceTree = "<group>"; };
+		369FA7A8237AFB1600155033 /* LCXUIInit+ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+ImageView.m"; sourceTree = "<group>"; };
+		369FA7A9237AFB1600155033 /* LCXUIInit+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+View.h"; sourceTree = "<group>"; };
+		369FA7AA237AFB1600155033 /* LCXUIInit+Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+Button.h"; sourceTree = "<group>"; };
+		369FA7AB237AFB1600155033 /* LCXUIInit+Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+Label.h"; sourceTree = "<group>"; };
+		369FA7AD237AFB1600155033 /* LCXUIInit+ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+ImageView.h"; sourceTree = "<group>"; };
+		369FA7AE237AFB1600155033 /* LCXUIInit+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCXUIInit+TableView.h"; sourceTree = "<group>"; };
+		369FA7AF237AFB1600155033 /* LCXUIInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCXUIInit.h; sourceTree = "<group>"; };
+		369FA7B0237AFB1600155033 /* LCXUIInit+Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+Button.m"; sourceTree = "<group>"; };
+		369FA7B1237AFB1600155033 /* LCXUIInit+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+View.m"; sourceTree = "<group>"; };
+		369FA7B2237AFB1600155033 /* LCXUIInit+Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCXUIInit+Label.m"; sourceTree = "<group>"; };
+		369FA7BA237AFB3900155033 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		369FA7BB237AFB3900155033 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		369FA7BC237AFB3900155033 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		369FA7BD237AFB3900155033 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		369FA7C2237AFBFF00155033 /* TableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewVC.h; sourceTree = "<group>"; };
+		369FA7C3237AFBFF00155033 /* TableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewVC.m; sourceTree = "<group>"; };
+		369FA7C5237AFC1F00155033 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		369FA7C6237AFC1F00155033 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		369FA7CB237AFFE800155033 /* LCXUIInitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCXUIInitHeader.h; sourceTree = "<group>"; };
+		369FA7CC237B011B00155033 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +138,12 @@
 				369FA773237AF91000155033 /* AppDelegate.m */,
 				369FA775237AF91000155033 /* ViewController.h */,
 				369FA776237AF91000155033 /* ViewController.m */,
+				369FA7BC237AFB3900155033 /* BaseViewController.h */,
+				369FA7BB237AFB3900155033 /* BaseViewController.m */,
+				369FA7BD237AFB3900155033 /* TableViewController.h */,
+				369FA7BA237AFB3900155033 /* TableViewController.m */,
+				369FA7C0237AFB4300155033 /* Examples */,
+				369FA7A4237AFB1600155033 /* LCXUIInit */,
 				369FA778237AF91000155033 /* Main.storyboard */,
 				369FA77B237AF91200155033 /* Assets.xcassets */,
 				369FA77D237AF91200155033 /* LaunchScreen.storyboard */,
@@ -130,6 +169,46 @@
 				369FA798237AF91200155033 /* Info.plist */,
 			);
 			path = LCXUIInitUITests;
+			sourceTree = "<group>";
+		};
+		369FA7A4237AFB1600155033 /* LCXUIInit */ = {
+			isa = PBXGroup;
+			children = (
+				369FA7CB237AFFE800155033 /* LCXUIInitHeader.h */,
+				369FA7AF237AFB1600155033 /* LCXUIInit.h */,
+				369FA7A6237AFB1600155033 /* LCXUIInit.m */,
+				369FA7A9237AFB1600155033 /* LCXUIInit+View.h */,
+				369FA7B1237AFB1600155033 /* LCXUIInit+View.m */,
+				369FA7AB237AFB1600155033 /* LCXUIInit+Label.h */,
+				369FA7B2237AFB1600155033 /* LCXUIInit+Label.m */,
+				369FA7AD237AFB1600155033 /* LCXUIInit+ImageView.h */,
+				369FA7A8237AFB1600155033 /* LCXUIInit+ImageView.m */,
+				369FA7AA237AFB1600155033 /* LCXUIInit+Button.h */,
+				369FA7B0237AFB1600155033 /* LCXUIInit+Button.m */,
+				369FA7AE237AFB1600155033 /* LCXUIInit+TableView.h */,
+				369FA7A7237AFB1600155033 /* LCXUIInit+TableView.m */,
+			);
+			path = LCXUIInit;
+			sourceTree = "<group>";
+		};
+		369FA7C0237AFB4300155033 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				369FA7C1237AFBC600155033 /* TableView */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		369FA7C1237AFBC600155033 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				369FA7C2237AFBFF00155033 /* TableViewVC.h */,
+				369FA7C3237AFBFF00155033 /* TableViewVC.m */,
+				369FA7C5237AFC1F00155033 /* TableViewCell.h */,
+				369FA7C6237AFC1F00155033 /* TableViewCell.m */,
+				369FA7CC237B011B00155033 /* testImage.png */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +317,7 @@
 				369FA77F237AF91200155033 /* LaunchScreen.storyboard in Resources */,
 				369FA77C237AF91200155033 /* Assets.xcassets in Resources */,
 				369FA77A237AF91000155033 /* Main.storyboard in Resources */,
+				369FA7CD237B011B00155033 /* testImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +342,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369FA7BE237AFB3900155033 /* TableViewController.m in Sources */,
+				369FA7C4237AFBFF00155033 /* TableViewVC.m in Sources */,
+				369FA7BF237AFB3900155033 /* BaseViewController.m in Sources */,
+				369FA7B8237AFB1600155033 /* LCXUIInit+View.m in Sources */,
+				369FA7B4237AFB1600155033 /* LCXUIInit.m in Sources */,
 				369FA777237AF91000155033 /* ViewController.m in Sources */,
 				369FA782237AF91200155033 /* main.m in Sources */,
+				369FA7C7237AFC1F00155033 /* TableViewCell.m in Sources */,
+				369FA7B9237AFB1600155033 /* LCXUIInit+Label.m in Sources */,
+				369FA7B5237AFB1600155033 /* LCXUIInit+TableView.m in Sources */,
 				369FA774237AF91000155033 /* AppDelegate.m in Sources */,
+				369FA7B7237AFB1600155033 /* LCXUIInit+Button.m in Sources */,
+				369FA7B6237AFB1600155033 /* LCXUIInit+ImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
