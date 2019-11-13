@@ -11,23 +11,16 @@
 
 @interface TableViewVC ()<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, copy) NSArray *dataArr;
-
 @end
 
 @implementation TableViewVC
 
-- (void)dealloc
-{
-    NSLog(@"%@ dealloc",NSStringFromClass(self.class));
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    _tableView = LCXTableViewWithDelegate(self.view, self.view.bounds, [UIColor whiteColor],self);
-    [_tableView registerClass:TableViewCell.class forCellReuseIdentifier:@"cellReuseID"];
+    UITableView *tableView = AddTableView(self.view, self.view.bounds, [UIColor whiteColor],self);
+    [tableView registerClass:TableViewCell.class forCellReuseIdentifier:@"cellReuseID"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

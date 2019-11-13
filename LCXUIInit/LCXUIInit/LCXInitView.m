@@ -1,16 +1,16 @@
 //
-//  LCXUIInit+View.m
-//  LCXApp
+//  LCXInitView.m
+//  LCXUIInit
 //
-//  Created by leichunxiang on 2019/11/8.
+//  Created by leichunxiang on 2019/11/13.
 //  Copyright © 2019 lcx. All rights reserved.
 //
 
-#import "LCXUIInit+View.h"
+#import "LCXInitView.h"
 
-@implementation LCXUIInit (View)
+@implementation LCXInitView
 
-UIView *LCXView(UIView *superView, CGRect frame, UIColor *backgroundColor){
+UIView *AddView(UIView *superView, CGRect frame, UIColor *backgroundColor){
     UIView *view = [[UIView alloc] initWithFrame:frame];
     [superView addSubview:view];
     view.backgroundColor = backgroundColor;

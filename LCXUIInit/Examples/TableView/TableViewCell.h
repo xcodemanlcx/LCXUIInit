@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LCXUIInitHeader.h"
+#import "LCXInit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

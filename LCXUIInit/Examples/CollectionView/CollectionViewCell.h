@@ -1,18 +1,16 @@
 //
-//  LCXUIInit.h
-//  LCXApp
+//  CollectionViewCell.h
+//  LCXUIInit
 //
-//  Created by leichunxiang on 2019/11/5.
+//  Created by leichunxiang on 2019/11/13.
 //  Copyright © 2019 lcx. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LCXUIInit : NSObject
-
+@interface CollectionViewCell : UICollectionViewCell
 
 @end
 

@@ -12,11 +12,12 @@ static NSString * const kLCXUIInitCellReuseIdentifier = @"kLCXUIInitCellReuseIde
 
 @interface TableViewController ()
 
-@property (nonatomic, strong) NSArray *exampleControllerNames;
-
 @end
 
 @implementation TableViewController
+{
+    NSArray *_exampleControllerNames;
+}
 
 - (instancetype)init
 {
@@ -24,7 +25,7 @@ static NSString * const kLCXUIInitCellReuseIdentifier = @"kLCXUIInitCellReuseIde
     if (self) {
         
         self.title = @"Examples";
-        self.exampleControllerNames = @[@"TableViewVC"];
+        _exampleControllerNames = @[@"TableViewVC",@"CollectionViewVC"];
 
     }
     return self;
@@ -40,12 +41,12 @@ static NSString * const kLCXUIInitCellReuseIdentifier = @"kLCXUIInitCellReuseIde
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.exampleControllerNames.count;
+    return _exampleControllerNames.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kLCXUIInitCellReuseIdentifier forIndexPath:indexPath];
-    NSString *viewControllerName = self.exampleControllerNames[indexPath.row];
+    NSString *viewControllerName = _exampleControllerNames[indexPath.row];
     cell.textLabel.text = viewControllerName;
     return cell;
 }
@@ -53,7 +54,7 @@ static NSString * const kLCXUIInitCellReuseIdentifier = @"kLCXUIInitCellReuseIde
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *viewControllerName = self.exampleControllerNames[indexPath.row];
+    NSString *viewControllerName = _exampleControllerNames[indexPath.row];
     Class viewControllerClass = NSClassFromString(viewControllerName);
     [self.navigationController pushViewController:viewControllerClass.new  animated:YES];
 }

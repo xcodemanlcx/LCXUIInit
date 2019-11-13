@@ -1,16 +1,16 @@
 //
-//  LCXUIInit+Label.m
-//  LCXApp
+//  LCXInitLabel.m
+//  LCXUIInit
 //
-//  Created by leichunxiang on 2019/11/8.
+//  Created by leichunxiang on 2019/11/13.
 //  Copyright © 2019 lcx. All rights reserved.
 //
 
-#import "LCXUIInit+Label.h"
+#import "LCXInitLabel.h"
 
-@implementation LCXUIInit (Label)
+@implementation LCXInitLabel
 
-UILabel *LCXLabel(UIView *superView,CGRect frame,NSString *text,UIFont *font,UIColor *textColor,NSTextAlignment textAlignment){
+UILabel *AddLabel(UIView *superView,CGRect frame,NSString *text,UIFont *font,UIColor *textColor,NSTextAlignment textAlignment){
     UILabel *label = [[UILabel alloc] initWithFrame:frame];
     [superView addSubview:label];
     label.text = text;
@@ -19,4 +19,5 @@ UILabel *LCXLabel(UIView *superView,CGRect frame,NSString *text,UIFont *font,UIC
     label.textAlignment = textAlignment;
     return label;
 }
+
 @end

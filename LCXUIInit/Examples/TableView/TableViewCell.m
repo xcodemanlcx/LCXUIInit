@@ -13,10 +13,10 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        LCXView(self.contentView, CGRectMake(0, 0, 100, 50), [UIColor redColor]);
-        LCXLabel(self.contentView, CGRectMake(110, 0, 100, 50), @"label", [UIFont systemFontOfSize:30], [UIColor blueColor], NSTextAlignmentLeft);
-        LCXImageView(self.contentView, CGRectMake(110*2, 0, 100, 50), [UIImage imageNamed:@"testImage"]);
-        UIButton *btn = LCXTitleButton(self.contentView, CGRectMake(0, 50, 100, 50), 0, self, @selector(btnAction:), @"button", [UIFont systemFontOfSize:30], [UIColor blackColor], [UIColor grayColor]);
+        AddView(self.contentView, CGRectMake(0, 0, 100, 50), [UIColor redColor]);
+        AddLabel(self.contentView, CGRectMake(110, 0, 100, 50), @"label", [UIFont systemFontOfSize:30], [UIColor blueColor], NSTextAlignmentLeft);
+        AddImageView(self.contentView, CGRectMake(110*2, 0, 100, 50), [UIImage imageNamed:@"testImage"]);
+        UIButton *btn = AddTitleButton(self.contentView, CGRectMake(0, 50, 100, 50), 0, self, @selector(btnAction:), @"button", [UIFont systemFontOfSize:30], [UIColor blackColor], [UIColor grayColor]);
         [btn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
     }
     return self;

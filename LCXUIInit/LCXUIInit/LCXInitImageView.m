@@ -1,16 +1,16 @@
 //
-//  LCXUIInit+ImageView.m
-//  LCXApp
+//  LCXInitImageView.m
+//  LCXUIInit
 //
-//  Created by leichunxiang on 2019/11/8.
+//  Created by leichunxiang on 2019/11/13.
 //  Copyright © 2019 lcx. All rights reserved.
 //
 
-#import "LCXUIInit+ImageView.h"
+#import "LCXInitImageView.h"
 
-@implementation LCXUIInit (ImageView)
+@implementation LCXInitImageView
 
-UIImageView *LCXImageView(UIView *superView, CGRect frame, UIImage *_Nullable image)
+UIImageView *AddImageView(UIView *superView, CGRect frame, UIImage *_Nullable image)
 {
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:frame];
     [superView addSubview:imageView];
@@ -24,8 +24,8 @@ UIImageView *LCXImageView(UIView *superView, CGRect frame, UIImage *_Nullable im
     return imageView;
 }
 
-UIImageView *LCXImageViewWithTap(UIView *superView, CGRect frame, UIImage *_Nullable image,id target,SEL sel){
-    UIImageView *imageView = LCXImageView(superView, frame, image);
+UIImageView *AddImageViewWithTap(UIView *superView, CGRect frame, UIImage *_Nullable image,id target,SEL sel){
+    UIImageView *imageView = AddImageView(superView, frame, image);
     if (target && imageView) {
         imageView.userInteractionEnabled = YES;
         UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:target action:sel];
@@ -33,4 +33,5 @@ UIImageView *LCXImageViewWithTap(UIView *superView, CGRect frame, UIImage *_Null
     }
     return imageView;
 }
+
 @end
